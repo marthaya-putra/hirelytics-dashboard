@@ -1,0 +1,37 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companies-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.company-wrapper {
+  padding: 21px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1.3333333730697632px 5.333333492279053px 0px #00000040;
+}
+
+.company {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.company-name {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: calc((20 / 16) * 1rem);
+  color: var(--black);
+}
+
+a {
+  color: var(--primary-blue);
+}

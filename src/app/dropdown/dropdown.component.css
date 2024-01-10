@@ -1,0 +1,23 @@
+.simple-dropdown {
+  border-color: var(--primary-blue);
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 4px;
+  align-items: center;
+}
+.simple-dropdown .p-inputtext {
+  font-size: calc((18 / 16) * 1rem);
+  line-height: 22px;
+  color: var(--primary-blue);
+  padding: 0;
+}
+
+.simple-dropdown .p-dropdown-trigger {
+  color: var(--primary-blue);
+  margin-left: 24px;
+  padding: 10px 0;
+}
+
+.simple-dropdown svg {
+  line-height: 22px;
+}

@@ -1,0 +1,25 @@
+.date-range-wrapper {
+  position: relative;
+}
+
+.date-range {
+  width: 100%;
+}
+
+.date-range .p-inputtext {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1.33px solid currentColor;
+  border-radius: 0;
+  color: inherit;
+  padding-right: 40px;
+  padding-left: 0;
+  padding-bottom: 4px;
+}
+
+.icon {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  pointer-events: none;
+}

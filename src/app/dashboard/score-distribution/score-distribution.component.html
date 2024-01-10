@@ -1,0 +1,28 @@
+<h2>Score Distribution</h2>
+<div class="chart-wrapper">
+  <p-chart type="bar" [data]="data" [options]="options"></p-chart>
+  <div class="legend-wrapper">
+    <div class="legend">
+      <svg-icon src="/assets/icons/monitor.svg" /><span
+        >Total Interview taken<strong>(20)</strong></span
+      >
+    </div>
+    <div class="legend">
+      <svg-icon
+        src="/assets/icons/speedo-low.svg"
+        [svgStyle]="{ fill: 'none' }"
+      /><span>Low Score<strong>(40)</strong></span>
+    </div>
+    <div class="legend">
+      <svg-icon
+        src="/assets/icons/speedo-avg.svg"
+        [svgStyle]="{ fill: 'none' }"
+      /><span>Average Score<strong>(60)</strong></span>
+    </div>
+    <div class="legend">
+      <svg-icon src="/assets/icons/speedo-high.svg" /><span
+        >Highest Score<strong>(80)</strong></span
+      >
+    </div>
+  </div>
+</div>

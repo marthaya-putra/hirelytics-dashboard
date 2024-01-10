@@ -1,0 +1,37 @@
+<div class="wrapper">
+  <div class="left">
+    <div>
+      <h2>Candidate's Overview</h2>
+      <p class="subtitle">Overview of Latest Week</p>
+    </div>
+    <div class="stats">
+      <div>
+        <h3>16,890</h3>
+        <p class="subtitle stat-desc">Registered on Portal</p>
+      </div>
+      <div>
+        <h3>6,890</h3>
+        <p class="subtitle stat-desc">Applied for Jobs</p>
+      </div>
+    </div>
+    <button>Last Month Summary</button>
+  </div>
+  <div class="right">
+    <div style="align-self: flex-end">
+      <app-dropdown [options]="durations" [selectedOption]="selectedDuration" />
+    </div>
+    <div class="chart-wrapper">
+      <div class="legend-wrapper">
+        <div class="legend">
+          <div class="circle" style="background-color: #083f88"></div>
+          <div>Applied for Jobs</div>
+        </div>
+        <div class="legend">
+          <div class="circle" style="background-color: #48bb79"></div>
+          <div>Registered on Portal</div>
+        </div>
+      </div>
+      <p-chart type="bar" [data]="data" [options]="options"></p-chart>
+    </div>
+  </div>
+</div>

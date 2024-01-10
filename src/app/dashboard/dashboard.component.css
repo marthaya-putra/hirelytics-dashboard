@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.two-sections-wrapper {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 3fr 2fr;
+}
+
+.scores {
+  padding-top: 60px;
+}
+
+.candidate-stats-wrapper {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  border-radius: 12px;
+}

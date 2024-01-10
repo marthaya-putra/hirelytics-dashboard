@@ -1,0 +1,13 @@
+<div class="header-wrapper">
+  <h2>Top Hiring Companies</h2>
+  <app-dropdown [options]="durations" [selectedOption]="selectedDuration" />
+</div>
+<div class="companies-wrapper">
+  <div class="company-wrapper" *ngFor="let company of companies">
+    <div class="company">
+      <img [src]="'/assets/companies/' + company.logo" />
+      <span class="company-name">{{ company.name }}</span>
+    </div>
+    <a [href]="company.siteUrl" target="_blank">View</a>
+  </div>
+</div>

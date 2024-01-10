@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="name-role-wrapper">
+    <h4>
+      {{ user.fullName }}
+    </h4>
+    <p class="role">{{ user.role }}</p>
+  </div>
+  <img [src]="'/assets/users/' + user.id + '.png'" />
+</div>

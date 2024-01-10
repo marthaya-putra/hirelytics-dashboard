@@ -1,0 +1,14 @@
+.legend {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  font-family: "Nexa";
+  font-size: calc((40 / 16) * 1rem);
+  font-weight: 700;
+
+  display: flex;
+  align-items: flex-start;
+}

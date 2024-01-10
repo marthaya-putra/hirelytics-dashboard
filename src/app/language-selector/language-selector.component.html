@@ -1,0 +1,27 @@
+<p-dropdown
+  [options]="languages"
+  [(ngModel)]="selectedLanguage"
+  optionLabel="name"
+  styleClass="header-dropdown"
+>
+  <ng-template pTemplate="selectedItem">
+    <div *ngIf="selectedLanguage" class="item-wrapper">
+      <img
+        [src]="
+          'assets/flags/' + selectedLanguage.flag.toLocaleLowerCase() + '.svg'
+        "
+      />
+      <div>{{ selectedLanguage.name }}</div>
+    </div>
+  </ng-template>
+  <ng-template let-language pTemplate="item">
+    <div class="item-wrapper">
+      <img
+        [src]="
+          'assets/flags/' + selectedLanguage.flag.toLocaleLowerCase() + '.svg'
+        "
+      />
+      <div>{{ language.name }}</div>
+    </div>
+  </ng-template>
+</p-dropdown>

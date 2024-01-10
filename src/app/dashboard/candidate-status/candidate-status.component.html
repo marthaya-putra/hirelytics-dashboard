@@ -1,0 +1,25 @@
+<h2>Candidate's Status</h2>
+
+<div class="wrapper">
+  <div class="legends-wrapper">
+    <div class="legend" *ngFor="let data of rawData">
+      <div
+        class="legend-color"
+        [ngStyle]="{
+          'background-color': getBackgroundColor(data)
+        }"
+      ></div>
+      <span>{{ data.label }}({{ data.value }})</span>
+    </div>
+  </div>
+  <div class="bar-wrapper">
+    <div
+      *ngFor="let data of graphData"
+      class="bar"
+      [ngStyle]="{
+        width: getWidth(data),
+        'background-color': getBackgroundColor(data)
+      }"
+    ></div>
+  </div>
+</div>

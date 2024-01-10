@@ -1,0 +1,14 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/NexaLight.woff") format("woff");
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/NexaBold.woff") format("woff");
+}

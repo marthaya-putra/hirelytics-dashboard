@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 48px;
+  padding: 32px 0 60px 0;
+  border-bottom: 1px solid #e0dfe4;
+}
+
+.legends-wrapper {
+  display: grid;
+  gap: 21px 17px;
+  grid-template-columns: auto auto;
+}
+
+.legend {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-size: calc((14 / 16) * 1rem);
+  color: var(--black);
+}
+
+.legend-color {
+  width: 14px;
+  height: 14px;
+}
+
+.bar-wrapper {
+  height: 33px;
+  border-radius: 39px;
+  overflow: hidden;
+  display: flex;
+  width: 99.99%;
+}
+
+.bar {
+  height: 100%;
+}

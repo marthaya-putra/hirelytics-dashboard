@@ -1,0 +1,16 @@
+<h2>Companies Hiring Statistics</h2>
+<div class="chart-wrapper">
+  <p-chart type="doughnut" [data]="data" [options]="options"></p-chart>
+  <div class="chart-text-middle"><span>100</span></div>
+</div>
+<div class="legends-wrapper">
+  <div class="legend-wrapper">
+    <div class="legend-icon" style="background-color: #083f88"></div>
+    <div class="legend-name">New Companies(90)</div>
+  </div>
+  <div class="legend-wrapper">
+    <div class="legend-icon" style="background-color: #48bb79"></div>
+    <div class="legend-name">Old Companies(10)</div>
+  </div>
+</div>
+<app-date-range [rangeDates]="range" />

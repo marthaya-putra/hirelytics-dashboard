@@ -1,0 +1,26 @@
+.chart-wrapper {
+  padding-top: 30px;
+}
+
+.legend-wrapper {
+  padding: 40px 0 32px 0;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.legend {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  fill: #215394;
+  color: var(--black);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}

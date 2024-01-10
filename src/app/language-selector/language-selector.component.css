@@ -1,0 +1,20 @@
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-dropdown {
+  border: none;
+  font-family: "Inter";
+  font-size: calc((18 / 16) * 1rem);
+  font-weight: 600;
+}
+
+.header-dropdown .p-inputtext {
+  color: #374557;
+}
+
+.header-dropdown .p-dropdown-trigger {
+  color: #a098ae;
+}

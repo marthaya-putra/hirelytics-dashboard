@@ -1,0 +1,22 @@
+.wrapper {
+  font-family: "Inter";
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.name-role-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.role {
+  font-weight: 400;
+  font-size: calc((14 / 16) * 1rem);
+  color: #737791;
+}

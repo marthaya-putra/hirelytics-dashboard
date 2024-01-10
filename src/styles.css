@@ -1,1 +1,67 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "poppins.css";
+@import "nexa.css";
+@import "inter.css";
+
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-blue: #224471;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+svg {
+  fill: currentColor;
+}
+
+app-root {
+  isolation: isolate;
+}
+
+body {
+  font-family: "Inter", "sans-serif";
+}
+
+.card {
+  padding: 32px;
+  box-shadow: 0px 3.0704915523529053px 15.352458000183105px 0px #eeeeee80;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: Nexa;
+  font-size: calc((32 / 16) * 1rem);
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Nexa";
+  font-weight: 700;
+  font-size: calc(26 / 16) * 1rem;
+  line-height: calc(26 / 16) * 1rem;
+}
